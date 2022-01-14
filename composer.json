@@ -1,0 +1,23 @@
+{
+    "name": "exactsports/media-manipulation",
+    "description": "A wrapper for ffmpeg to handle common audio and video manipulation tasks",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ExactSports\\MediaManipulation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ed Grosvenor",
+            "email": "ed.grosvenor@wickedviral.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0",
+        "pbmedia/laravel-ffmpeg": "^7.7",
+        "intervention/image": "^2.7"
+    }
+}
